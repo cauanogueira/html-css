@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta no Espaço</title>
     <style>
-        #espaco {
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #container {
             background: url('imagens/espaco.jpg');
             background-size: 100% 100%;
             position: relative;
-            height: 94vh;
-            width: 95vhw;
-            padding: 10px;
+            height: 100%;
+            width: 100%;
         }
 
-        #astronauta {
+        #conteudo {
             background-image: url('imagens/astronauta.png');
             background-size: 100% 100%;
             position: absolute;
-            height: 380px;
-            width: 400px;
-            left: 51%;
-            top: 48%;
+            height: 364px;
+            width: 406px;
+            left: 50%;
+            top: 50%;
             transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <section id="espaco">
-        <article id="astronauta">
+    <section id="container">
+        <article id="conteudo">
 
         </article>
     </section>
